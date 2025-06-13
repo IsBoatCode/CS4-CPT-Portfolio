@@ -1,0 +1,77 @@
+{
+  "projects": [
+    {      
+      "name": "Zoomed AHK",
+      "link": "project-5",
+      "date": "05/29/2025",
+      "short": "An Auto Hotkey script that changes the aspect dimensions of Minecraft to allow for easier eye of ender measurements",
+      "weight": 1,
+      "tags": [
+        "Script"
+      ],
+      "photos": [
+        "/static/projects/project-5/img.jpg"
+        
+      ]
+    },
+    {
+      "name": "Mapify",
+      "link": "project-2",
+      "date": "05/29/2025",
+      "short": "A mapping program that shows the location of volcanos in America with information",
+      "weight": 1,
+      "tags": [
+        "Code"
+      ],
+      "photos": [
+        "/static/projects/project-2/img.jpg"
+        
+      ]
+      },
+    {
+      "name": "Employify",
+      "link": "project-3",
+      "date": "05/29/2025",
+      "short": "A charting program that takes plots the salary and performance score of different employees and includes information such as position and years working",
+      "weight": 1,
+      "tags": [
+        "Code"
+      ],
+      "photos": [
+        "/static/projects/project-3/img.jpg"
+        
+      ]
+      },
+    {
+      "name": "A Greener Jump",
+      "link": "project-4",
+      "date": "05/29/2025",
+      "short": "A simple game about picking up trash by jumping over it",
+      "weight": 1,
+      "tags": [
+        "Game"
+      ],
+      "photos": [
+        "/static/projects/project-4/img.jpg"
+        
+      ]
+      },
+    {
+      "name": "Distantly",
+      "link": "project-1",
+      "date": "05/29/2025",
+      "short": "A distance converter from one set of units to another",
+      "status": "complete",
+      "weight": 1,
+      "tags": [
+        "Code"
+      ],
+      "photos": [
+        "/static/projects/project-1/img.jpg"
+        
+      ]
+      
+    }
+  ]
+}
+

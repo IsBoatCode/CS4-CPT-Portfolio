@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/films.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="newclass">
+    <h2>Film Analysis</h2>
+</div>
+
+    <br> 
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Oppenheimer</p>
+    <p><strong>📄Summary:</strong> A biopic of J. Robert Oppenheimer and the creation of the atomic bomb.</p>
+    <p><strong>🧠Analysis:</strong> Raises ethical questions in scientific innovation and responsibility in technological power.</p>
+    <p><strong>💬Reflection:</strong> Reminded me that the long-term impact of innovation must be carefully considered.</p>
+    <p><strong>⭐Rating:</strong> 10/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Bullet Train</p>
+    <p><strong>📄Summary:</strong> Assassins with intersecting missions board a high-speed train in Japan.</p>
+    <p><strong>🧠Analysis:</strong> Reflects on system chaos, timing, and operational precision under stress.</p>
+    <p><strong>💬Reflection:</strong> Showed how fast-moving systems require strong coordination and design.</p>
+    <p><strong>⭐Rating:</strong> 8.5/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> 1917</p>
+    <p><strong>📄Summary:</strong> Two soldiers carry a critical message through dangerous territory in WWI.</p>
+    <p><strong>🧠Analysis:</strong> Demonstrates the importance of reliable communication and real-time decision making.</p>
+    <p><strong>💬Reflection:</strong> Reinforced the value of speed and accuracy in information systems.</p>
+    <p><strong>⭐Rating:</strong> 10/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Parasite</p>
+    <p><strong>📄Summary:</strong> A poor family infiltrates a wealthy household through deception.</p>
+    <p><strong>🧠Analysis:</strong> Sheds light on inequality and accessibility issues mirrored in tech access.</p>
+    <p><strong>💬Reflection:</strong> Made me think about technology's role in reinforcing or challenging social divisions.</p>
+    <p><strong>⭐Rating:</strong> 7.5/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Baby Driver</p>
+    <p><strong>📄Summary:</strong> A young getaway driver uses music to masterfully time heists.</p>
+    <p><strong>🧠Analysis:</strong> Showcases the synchronization of systems and user interfaces.</p>
+    <p><strong>💬Reflection:</strong> Reminded me how fluid design and rhythm improve performance and focus.</p>
+    <p><strong>⭐Rating:</strong> 10/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Ex Machina</p>
+    <p><strong>📄Summary:</strong> A programmer tests a humanoid robot’s consciousness.</p>
+    <p><strong>🧠Analysis:</strong> Explores AI ethics, autonomy, and manipulation in human-computer interaction.</p>
+    <p><strong>💬Reflection:</strong> Showed the critical need for ethics in building intelligent systems.</p>
+    <p><strong>⭐Rating:</strong> 8/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Interstellar</p>
+    <p><strong>📄Summary:</strong> Astronauts travel through space to save humanity from ecological collapse.</p>
+    <p><strong>🧠Analysis:</strong> Highlights data modeling, time dilation, and problem-solving under pressure.</p>
+    <p><strong>💬Reflection:</strong> Reinforced how science and collaboration drive global innovation.</p>
+    <p><strong>⭐Rating:</strong> 10/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Big Hero 6</p>
+    <p><strong>📄Summary:</strong> A young inventor and his robot uncover a tech conspiracy.</p>
+    <p><strong>🧠Analysis:</strong> Encourages STEM innovation and responsible invention.</p>
+    <p><strong>💬Reflection:</strong> Inspired me to see technology as a tool for healing and social good.</p>
+    <p><strong>⭐Rating:</strong> 8/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> John Wick</p>
+    <p><strong>📄Summary:</strong> A former assassin seeks revenge in a world governed by a strict criminal code.</p>
+    <p><strong>🧠Analysis:</strong> Reflects on decentralized systems, digital-like economies, and rule-based protocols.</p>
+    <p><strong>💬Reflection:</strong> Showed how consistent systems create order, even in chaos.</p>
+    <p><strong>⭐Rating:</strong> 8.5/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Whiplash</p>
+    <p><strong>📄Summary:</strong> A student drummer is pushed to greatness by a demanding teacher.</p>
+    <p><strong>🧠Analysis:</strong> Reflects the balance between drive, mentorship, and burnout.</p>
+    <p><strong>💬Reflection:</strong> Emphasized how feedback and pressure shape performance, like in tech careers.</p>
+    <p><strong>⭐Rating:</strong> 10/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Good Will Hunting</p>
+    <p><strong>📄Summary:</strong> A math genius struggles to find his path while confronting personal trauma.</p>
+    <p><strong>🧠Analysis:</strong> Underscores talent development and the human side of analytical brilliance.</p>
+    <p><strong>💬Reflection:</strong> Reinforced that personal growth is as important as technical skill.</p>
+    <p><strong>⭐Rating:</strong> 9/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Your Name</p>
+    <p><strong>📄Summary:</strong> Two teens mysteriously switch bodies across time and space.</p>
+    <p><strong>🧠Analysis:</strong> Highlights interconnectedness and data traceability in nonlinear systems.</p>
+    <p><strong>💬Reflection:</strong> Encouraged me to consider the emotional layer in user experience design.</p>
+    <p><strong>⭐Rating:</strong> 9.5/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Minority Report</p>
+    <p><strong>📄Summary:</strong> A futuristic society uses predictive policing to stop crimes before they occur.</p>
+    <p><strong>🧠Analysis:</strong> Raises concerns about surveillance, bias in algorithms, and free will.</p>
+    <p><strong>💬Reflection:</strong> Warned of the dangers in over-relying on data predictions without human context.</p>
+    <p><strong>⭐Rating:</strong> 8.5/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> The Internship</p>
+    <p><strong>📄Summary:</strong> Two older salesmen intern at Google and must adapt to tech culture.</p>
+    <p><strong>🧠Analysis:</strong> Shows the learning curve in tech and the value of adaptability.</p>
+    <p><strong>💬Reflection:</strong> Reinforced that collaboration and curiosity matter more than background.</p>
+    <p><strong>⭐Rating:</strong> 8/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Moneyball</p>
+    <p><strong>📄Summary:</strong> A baseball manager uses data analytics to build a winning team.</p>
+    <p><strong>🧠Analysis:</strong> Perfect example of data-driven decision making and performance metrics.</p>
+    <p><strong>💬Reflection:</strong> Highlighted the power of statistics in transforming strategy.</p>
+    <p><strong>⭐Rating:</strong> 8/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> The Mule</p>
+    <p><strong>📄Summary:</strong> An elderly man unknowingly becomes a drug courier for a cartel.</p>
+    <p><strong>🧠Analysis:</strong> Explores trust networks and logistics relevant in supply chain management.</p>
+    <p><strong>💬Reflection:</strong> Showed how life choices intersect with unexpected systems and roles.</p>
+    <p><strong>⭐Rating:</strong> 8/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Ready Player One</p>
+    <p><strong>📄Summary:</strong> A teenager competes in a VR world for control of a digital universe.</p>
+    <p><strong>🧠Analysis:</strong> Explores VR, gamification, data control, and immersive user design.</p>
+    <p><strong>💬Reflection:</strong> Made me consider how deeply tech shapes culture and daily experience.</p>
+    <p><strong>⭐Rating:</strong> 8/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> Terminator</p>
+    <p><strong>📄Summary:</strong> A cyborg assassin is sent from the future to alter humanity's fate.</p>
+    <p><strong>🧠Analysis:</strong> Warns of AI autonomy and the consequences of unchecked development.</p>
+    <p><strong>💬Reflection:</strong> Showed the importance of control mechanisms in advanced technologies.</p>
+    <p><strong>⭐Rating:</strong> 7.5/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> How to Train Your Dragon</p>
+    <p><strong>📄Summary:</strong> A young Viking befriends a dragon and challenges societal beliefs.</p>
+    <p><strong>🧠Analysis:</strong> Emphasizes empathy, innovation, and reframing traditional systems.</p>
+    <p><strong>💬Reflection:</strong> Reminded me that challenging the status quo often leads to breakthrough ideas.</p>
+    <p><strong>⭐Rating:</strong> 9.5/10</p>
+    <br>
+    <hr>
+    <br>
+    <p><strong>🎞️Title:</strong> American Psycho</p>
+    <p><strong>📄Summary:</strong> A wealthy investment banker hides a violent double life.</p>
+    <p><strong>🧠Analysis:</strong> Explores identity, facades, and disconnection in corporate culture.</p>
+    <p><strong>💬Reflection:</strong> Cautioned against losing ethical grounding in pursuit of performance or status.</p>
+    <p><strong>⭐Rating:</strong> 9/10</p>
+    <br>
+    <br>
+
+
+</div>
+{% endblock %}
