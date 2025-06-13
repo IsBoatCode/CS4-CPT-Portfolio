@@ -1,0 +1,55 @@
+.date {
+  display:block;
+  color: #ffffff;
+  margin:10px;
+  font-size: 20px;
+}
+
+
+.newclass{
+  color: #ffffff;
+}
+
+strong{
+  color: #00baba;
+}
+
+p{
+  color: #ffffff;
+}
+
+.title{
+  color: #00baba;
+  font-size: 16px;
+  margin: 4px;
+  font-weight:500;
+}
+
+.title:hover {
+  text-decoration: none !important;
+}
+
+.content{
+  display:block;
+  color: #ffffff;
+  margin:4px;
+  font-weight:300;
+}
+
+.container{
+  max-width:750px;
+}
+
+.icon-title{
+    display: flex;
+    align-items: center;
+}
+
+.list {
+  list-style-type:none;
+}
+
+.item {
+    margin-top:10px;
+    margin-bottom:10px;
+}
