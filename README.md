@@ -1,8 +1,8 @@
 # Screenshots
 <p float="middle">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/home.png" width="400">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/projects.png" width="400">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/timeline.png" width="400">
+  <img src="https://raw.githubusercontent.com/IsBoatCode/portfolio/master/screenshots/home.png" width="400">
+  <img src="https://raw.githubusercontent.com/IsBoatCode/portfolio/master/screenshots/projects.png" width="400">
+  <img src="https://raw.githubusercontent.com/IsBoatCode/portfolio/master/screenshots/timeline.png" width="400">
 </p>
 
 For this projcet, I mostly used python flask as well as CSS and Jinja2.
