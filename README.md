@@ -5,23 +5,14 @@
   <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/timeline.png" width="400">
 </p>
 
-# Technology
+For this projcet, I mostly used python flask as well as CSS and Jinja2.
 
-Developed using Python Flask, and a lot of CSS and Jinja2.
+If you want to take this as a template you can, but make sure to verify by rish to make sure he is okay since this is based off of his design (rish.space).
 
-Sidenote: Why isn't web UI as easy to make as Android's?
-
-# I want to use this!
-
-You're free to use this for your own personal portfolio; but please do write to me telling me you have!
- 
- - change the static content wherever it is to suit your work.
- - **NOTE**: Hard-refresh your browser (ctrl-shift-r) when you update the js files #19
- - change the `timeline.json` and `projects.json` files with your work and projects. 
- - send me an email at rishextra at gmail dot com. I'd really love to see it being used!
+This porfolio is updated to 6/16/2025 if any further updates occur, this date will change to the current day.
 
 # My Website
-<a href="https://www.rish.space">rish.space</a>
+<a href="https://nolanportfolio.onrender.com">nolanportfolio.onrender</a>
 
 # Wait, what happened to all the commits?
 
